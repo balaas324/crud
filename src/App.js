@@ -15,9 +15,7 @@ function App() {
         <Route path="/add" component={AddEmployee} exact />
         <Route path="/edit/:id" component={EditEmployee} exact />
       </Switch>
-      <footer>
-        via: https://www.digitalocean.com/community/tutorials/react-crud-context-hooks
-      </footer>
+      
     </GlobalProvider>
     
   );
